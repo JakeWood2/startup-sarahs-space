@@ -1,0 +1,61 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: "Poiret One", sans-serif;
+    background: url(Jake.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Text */
+
+strong {
+    font-size: 3rem;
+    color: antiquewhite;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 130%;
+}
+
+.buffer {
+    height: 300px;
+}
+
+h5 {
+    font-size: 1.3rem;
+    color: antiquewhite;
+}
+
+hr {
+    border-color: antiquewhite;
+    border-width: 2px;
+}
+
+
+/* Button */
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: lowercase;
+}
+
+.btn-secondary {
+    background-color: rgb(65, 65, 65);
+    border-color: rgb(65, 65, 65);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+}
+.btn-secondary:hover {
+    transform: scale(1.1);
+}
+.btn-xl {
+    padding: .5rem 2rem;
+ }
+ 
+
